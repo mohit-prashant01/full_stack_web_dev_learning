@@ -1,0 +1,20 @@
+
+#btn{
+    height:25px;
+    width:80px;
+    border:1px solid;
+    /* color:red; */
+    border-radius: 20px;
+    background-color: lavenderblush;
+}
+
+
+#btn:hover{
+    border: 3px solid blue;
+    color:rgb(71, 81, 197)
+
+}
+
+#btn:active{
+    background-color: greenyellow;
+}

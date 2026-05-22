@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    height:800px;
+    width:700px;
+    border:2px solid black;
+    background-color:lavender;
+    margin:30px;
+
+    display:flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+
+}
+
+.item{
+    height:200px;
+    width:100px;
+    margin:20px;
+    padding:40px;
+
+}
+
+#item1{background-color:cyan;}
+#item2{background-color:blueviolet;}
+#item3{background-color:yellowgreen;}
+#item4{background-color:tomato;}

@@ -1,0 +1,32 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.btn{
+    height:40px;
+    width:150px;
+    margin:10px;
+    border:3px solid ;
+    border-radius:5px;
+    background-color: burlywood;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+
+.btn:hover{
+
+    border: 5px solid blue;
+    background-color: rgb(126, 126, 244);
+    
+}
+
+.btn:active{
+    background-color: brown;
+    height:80px;
+    width:300px;
+}

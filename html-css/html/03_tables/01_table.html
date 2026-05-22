@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        /* Table container for responsiveness */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Main table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+thead {
+  background-color: #dcebfb;
+}
+
+th {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Body cells */
+td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #475569;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Row hover */
+tbody tr:hover {
+  background-color: #f1f5f9;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Optional alignment helpers */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Status badges */
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge.success {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.badge.warning {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badge.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+    </style>
+</head>
+<body>
+    <h2>Student Performance Table</h2>
+    <table>
+         <thead>
+            <tr>
+                <th rowspan="2" >Student Name</th>
+                <th colspan ="3">Math</th>
+                <th colspan ="3">Science</th>
+                <th rowspan="2">Total Score</th>
+            </tr> 
+            <tr>      
+              <th>Quiz</th>
+              <th>Midterm</th>
+              <th>Final</th>
+              <th>Quiz</th>
+              <th>Midterm</th>
+              <th>Final</th>
+            </tr>          
+         </thead>
+
+         <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>8</td>
+                <td>18</td>
+                <td>25</td>
+                <td>9</td>
+                <td>17</td>
+                <td>23</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>9</td>
+                <td>19</td>
+                <td>24</td>
+                <td>10</td>
+                <td>18</td>
+                <td>22</td>
+                <td>102</td>
+            </tr>           
+            <tr>
+                <td>Emily Johnson</td>
+                <td>7</td>
+                <td>16</td>
+                <td>23</td>
+                <td>8</td>
+                <td>15</td>
+                <td>21</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>8</td>
+                <td>17</td>
+                <td>22</td>
+                <td>9</td>
+                <td>16</td>
+                <td>20</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td><b>Average</b></td>
+                <td><b>8</b></td>
+                <td><b>17.5</b></td>
+                <td><b>23.5</b></td>
+                <td><b>9</b></td>
+                <td><b>16.5</b></td>
+                <td><b>21.5</b></td>
+                <td><b>95</b></td>
+            </tr>
+        </tfoot>          
+    </table>
+</body>
+</html>

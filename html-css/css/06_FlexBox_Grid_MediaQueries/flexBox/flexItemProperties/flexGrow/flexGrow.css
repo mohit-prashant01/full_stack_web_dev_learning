@@ -1,0 +1,32 @@
+*margin{
+    padding:0;
+    margin:0;
+}
+
+
+#container{
+    height:50vh;
+    width:60vw;
+    border: 2px solid black;
+    margin:5vw;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+.item{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    margin:5px;
+
+}
+
+#item1{background-color:burlywood;}
+#item2{background-color:yellowgreen;}
+#item3{background-color:teal;
+        flex-grow:3;    
+}
+#item4{background-color:tomato;
+        flex-shrink: 0;
+}

@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    /* background-color:peachpuff; */
+    background-color: #ffffff;
+    height: 80px;
+    align-items:center;
+}
+
+#myntra_home{
+    width:150px;
+}
+
+#logo_container{
+    margin-left:2%;
+}
+
+
+
+#actionBar{
+    margin-left:40px;
+    margin-right: 4%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+
+#actionBar a{
+     text-decoration: none;
+     font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+nav a{
+    text-decoration: none;
+     font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    
+}
+
+#navBar{
+    min-width: 500px;
+    display:flex;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+
+nav a sup{
+    color:rgb(248, 25, 25);
+}
+
+
+#searchBar{
+    /* border:1px solid black; */
+    padding-left:15px;
+    display: flex;
+    
+    align-items: center;
+    min-width: 300px;
+    min-height: 35px;
+    margin-left:50px;
+    border-radius: 10px;
+    background-color: rgb(240, 255, 255,0.5);
+}
+
+#search{
+    width:85%;
+    align-content:center ;
+    padding: 5px;
+    border:none;
+   /* background-color: rgb(240, 255, 255,0.5); */
+
+   background-color: transparent;
+
+}
+
+
+#homeBannerImage{
+    width:95%;
+    /* margin-left: 4%; */
+    /* margin-right: 2%; */
+    margin-top: 2%;
+
+}
+
+
+main{
+    margin-left:4%;
+    width:80%;
+    background-color:#ffffff ;
+}
+
+
+#bedFurnisher{
+    display:flex;
+    width:1268;
+
+}
+

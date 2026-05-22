@@ -1,0 +1,35 @@
+.box{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    border-radius:10px;
+    margin:40px;
+    padding:30px;
+    font-size:xx-large;
+   
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+#box1{background-color:blue;}
+#box1:hover{
+    transform:rotate(45deg);
+}
+
+#box2{background-color:blueviolet;}
+#box2:hover{
+    transform:rotate(180deg);
+}
+
+#box3{background-color:indianred;}
+#box3:hover{
+    transform:rotatex(30deg);
+}
+
+#box4{background-color:violet;}
+#box4:hover{
+    transform:rotatey(45deg);
+}

@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.progressContainer{
+    width:90vw;
+    height:4vh;
+    border:2px solid black;
+    border-radius:20px;
+    position: relative;
+    top:30px;
+    left:30px;
+    background-color: rgb(245, 242, 238);
+}
+
+#progress{
+    height: 4vh;
+    width:20vw;
+    background-color: rgb(223, 151, 247);
+    border-radius: 20px;
+
+    animation-name: progressAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    /* animation-iteration-count: ; */
+    animation-direction: normal;
+}
+
+
+@keyframes progressAnimation{
+    0%{
+        width:0%;
+    }
+    90%{
+        width:90%;
+    }
+    100%{
+        width:100%;
+    }
+}

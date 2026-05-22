@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    background-color: lavenderblush;
+    height:600px;
+    width:600px;
+    border: 2px solid black;
+    margin:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item{
+    height:60px;
+    width:60px;
+    margin:5px;
+    border:2px solid black;
+}
+
+#item1{
+    background-color:cyan;
+    order:3;
+}
+
+#item2{
+    background-color:yellowgreen;
+    order:1;
+}
+
+#item3{
+    background-color:teal;
+    order:4;
+}
+#item4{
+    background-color:tomato;
+    order:2;
+}
