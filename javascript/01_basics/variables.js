@@ -59,18 +59,44 @@ const declares constant variable, to make code stricter
 
 /* let is another way to create variables, let is block scoped, it can be reassigned but cannot be redeclared */
 
-let name="mohit";
-let age=24;
-console.log(name);
-console.log(age);
+// let name="mohit";
+// let age=24;
+// console.log(name);
+// console.log(age);
 
-function greet(){
-    console.log(name);
-    if(true){
-        let isStudent = true;
-        console.log(isStudent); //Accessible here
-    }
-    console.log(isStudent);   //Reference error -> isStudent is not defined as let is block scoped it is accessible inside the block only 
-}
+// function greet(){
+//     console.log(name);
+//     if(true){
+//         let isStudent = true;
+//         console.log(isStudent); //Accessible here
+//     }
+//     console.log(isStudent);   //Reference error -> isStudent is not defined as let is block scoped it is accessible inside the block only 
+// }
 
-greet();
+// greet();
+
+
+
+
+/*Object -> key value pairs */
+
+// let person = {
+//     name:"Mohit",
+//     age:26
+// };
+
+// console.log(person.name);
+// console.log(person.age);
+
+
+
+/*Arrays - >  declration  */
+
+// let arr = [1,2,3,4];
+// console.log(arr[0]);
+// // console.log(arr[1]);
+// console.log(arr[2]);
+// console.log(arr[3]);
+
+// arr[2]=9999;
+// console.log("Value at index 2 :",arr[2]);
